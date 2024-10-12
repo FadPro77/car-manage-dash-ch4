@@ -1,59 +1,71 @@
-/* Styling the navbar background and links */
-.navbar {
-  background-color: #f8f9fa; /* Light background */
+/* Style for the navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
 }
 
-.nav-item.dropdown .dropdown-menu {
-  background-color: #f8f9fa; /* Same background for dropdown */
-}
-
-.dropdown-item {
-  color: #343a40; /* Dark gray for dropdown items */
-}
-
-.dropdown-item:hover {
-  background-color: #007bff;
-  color: white;
-}
-
-/* Styling for the search form */
-.form-control {
-  border-radius: 20px; /* Rounded corners */
-  border: 1px solid #ced4da; /* Light border */
-}
-
-.btn-outline-success {
+/* Style for the search box */
+.search-box input[type="search"] {
   color: #0d28a6;
+  padding: 8px 16px;
+  border: 1px solid #ddd; /* Default border */
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* When the input is focused */
+.search-box input[type="search"]:focus {
   border-color: #0d28a6;
+  box-shadow: 0 0 8px rgba(13, 40, 166, 0.5);
+  outline: none;
 }
 
-.btn-outline-success:hover {
+/* Search button */
+.search-box .btn {
+  background-color: #ffffff;
+  border: 1px solid #0d28a6;
+  color: #0d28a6;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-box .btn:hover {
   background-color: #0d28a6;
-  color: white;
+  color: #ffffff;
 }
 
-/* Navbar for mobile (smaller screens) */
-@media (max-width: 991px) {
-  .navbar-collapse {
-    background-color: #f8f9fa; /* Background for collapsed menu */
-  }
-
-  .navbar-toggler {
-    border: none;
-  }
-
-  .navbar-toggler-icon {
-    color: #343a40;
-  }
+/* Style for the dropdown menu */
+.navbar-nav .nav-item .dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Adjusting margins for navbar items */
-.navbar-nav .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+.navbar-nav .nav-item .dropdown-item:hover {
+  background-color: #f8f9fa;
 }
 
-/* Dropdown divider style */
-.dropdown-divider {
-  border-top: 1px solid #007bff;
+.dropdown-menu-end {
+  right: 0;
+  left: auto;
+}
+
+/* Navbar toggle button (hamburger icon) */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #333;
+}
+
+/* Responsive behavior */
+@media (max-width: 767.98px) {
+  .search-box {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
 }
