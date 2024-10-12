@@ -1,0 +1,197 @@
+/* Remove underline from breadcrumb links */
+nav .breadcrumb a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav .breadcrumb a:hover {
+  color: #333; /* Slightly darker color on hover */
+  text-decoration: none; /* Ensure underline is removed on hover as well */
+}
+
+.list-car__title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.btn-add-car {
+  background-color: #0d28a6 !important;
+  border: none;
+  color: #ffffff !important;
+  width: 170px;
+  height: 50px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-car-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.btn-all-cars {
+  background-color: #cfd4ed !important;
+  border: 1px solid;
+  border-color: #0d28a6 !important;
+  color: #0d28a6 !important;
+  width: 42px;
+  height: 36px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.btn-small-cars {
+  background-color: #ffffff !important;
+  border: 1px solid;
+  border-color: #aeb7e1 !important;
+  color: #aeb7e1 !important;
+  width: 62px;
+  height: 36px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.btn-medium-cars {
+  background-color: #ffffff !important;
+  border: 1px solid;
+  border-color: #aeb7e1 !important;
+  color: #aeb7e1 !important;
+  width: 80px;
+  height: 36px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.btn-large-cars {
+  background-color: #ffffff !important;
+  border: 1px solid;
+  border-color: #aeb7e1 !important;
+  color: #aeb7e1 !important;
+  width: 65px;
+  height: 36px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: white;
+  color: #000000;
+  border-radius: 8px;
+  width: 351px;
+  height: 586px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.image-content {
+  width: 303px;
+  height: 222px;
+  align-self: center;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+#title-car {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+#rent-car {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.update-car-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#update-car {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.btn-delete-car {
+  border-color: #fa2c5a !important;
+  border-radius: 2px !important;
+  width: 144px;
+  height: 48px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+  color: #fa2c5a !important;
+  margin-right: 10px;
+}
+
+.delete-car-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.btn-edit-car {
+  background-color: #5cb85f !important;
+  border-radius: 2px !important;
+  width: 144px;
+  height: 48px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
+}
+
+.edit-car-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}

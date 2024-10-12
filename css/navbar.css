@@ -27,6 +27,9 @@
   width: 70px;
   height: 36px;
   gap: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 20px;
 }
 
 .search-box .btn:hover {
@@ -38,6 +41,9 @@
 .navbar-nav .nav-item .dropdown-menu {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 400;
+  color: #151515;
 }
 
 .navbar-nav .nav-item .dropdown-item:hover {
