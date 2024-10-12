@@ -1,0 +1,59 @@
+/* Styling the navbar background and links */
+.navbar {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: #f8f9fa; /* Same background for dropdown */
+}
+
+.dropdown-item {
+  color: #343a40; /* Dark gray for dropdown items */
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styling for the search form */
+.form-control {
+  border-radius: 20px; /* Rounded corners */
+  border: 1px solid #ced4da; /* Light border */
+}
+
+.btn-outline-success {
+  color: #0d28a6;
+  border-color: #0d28a6;
+}
+
+.btn-outline-success:hover {
+  background-color: #0d28a6;
+  color: white;
+}
+
+/* Navbar for mobile (smaller screens) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #f8f9fa; /* Background for collapsed menu */
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    color: #343a40;
+  }
+}
+
+/* Adjusting margins for navbar items */
+.navbar-nav .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Dropdown divider style */
+.dropdown-divider {
+  border-top: 1px solid #007bff;
+}
