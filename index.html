@@ -211,7 +211,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -230,8 +235,10 @@
               </div>
             </div>
           </div>
+
           <!-- Duplicate card example -->
           <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
             <div class="card" style="width: 100%">
               <img class="image-content" src="/images/car.png" alt="mobil" />
               <div class="card-body">
@@ -245,7 +252,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -265,6 +277,7 @@
             </div>
           </div>
           <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
             <div class="card" style="width: 100%">
               <img class="image-content" src="/images/car.png" alt="mobil" />
               <div class="card-body">
@@ -278,7 +291,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -298,6 +316,7 @@
             </div>
           </div>
           <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
             <div class="card" style="width: 100%">
               <img class="image-content" src="/images/car.png" alt="mobil" />
               <div class="card-body">
@@ -311,7 +330,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -331,6 +355,7 @@
             </div>
           </div>
           <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
             <div class="card" style="width: 100%">
               <img class="image-content" src="/images/car.png" alt="mobil" />
               <div class="card-body">
@@ -344,7 +369,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -364,6 +394,7 @@
             </div>
           </div>
           <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
             <div class="card" style="width: 100%">
               <img class="image-content" src="/images/car.png" alt="mobil" />
               <div class="card-body">
@@ -377,7 +408,12 @@
                   />
                   Updated at 4 Apr 2022, 09.00
                 </p>
-                <button class="btn btn-delete-car">
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
                   <img
                     src="/images/delete1.png"
                     class="delete-car-icon"
@@ -392,6 +428,93 @@
                     alt="edit"
                   />
                   Edit
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Ubah ukuran kolom agar lebih responsif -->
+            <div class="card" style="width: 100%">
+              <img class="image-content" src="/images/car.png" alt="mobil" />
+              <div class="card-body">
+                <h5 class="card-title" id="title-car">Nama/Tipe Mobil</h5>
+                <p class="card-text" id="rent-car">Rp 430.000 / Hari</p>
+                <p class="card-text" id="update-car">
+                  <img
+                    src="/images/clock1.png"
+                    class="update-car-icon"
+                    alt="update"
+                  />
+                  Updated at 4 Apr 2022, 09.00
+                </p>
+                <button
+                  class="btn btn-delete-car"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-delete"
+                >
+                  <img
+                    src="/images/delete1.png"
+                    class="delete-car-icon"
+                    alt="delete"
+                  />
+                  Delete
+                </button>
+                <button class="btn btn-edit-car">
+                  <img
+                    src="/images/update1.png"
+                    class="edit-car-icon"
+                    alt="edit"
+                  />
+                  Edit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="modal-delete"
+          tabindex="-1"
+          aria-labelledby="modal-deleteLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- <div class="modal-header border-0"></div> -->
+              <div class="modal-body">
+                <div
+                  class="container d-flex flex-column justify-content-center align-items-center gap-2 p-2 text-center"
+                >
+                  <img src="/images/img-BeepBeep.png" alt="" />
+                  <h4>Menghapus Data Mobil</h4>
+                  <p>
+                    Setelah dihapus, data mobil tidak dapat dikembalikan. Yakin
+                    ingin menghapus?
+                  </p>
+                </div>
+              </div>
+              <div
+                class="modal-footer border-0 flex justify-content-center flex-row-reverse"
+              >
+                <button
+                  type="button"
+                  class="btn btn-primary px-5 border border-1 border-primary text-primary"
+                  style="background-color: white"
+                  data-bs-dismiss="modal"
+                >
+                  Tidak
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary px-5"
+                  style="background-color: #0d28a6"
+                >
+                  Ya
                 </button>
               </div>
             </div>
